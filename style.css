@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+}
+
+
+
+.header{
+    width: 1177px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    margin: 47px 376px 35px 367px;
+}
+.logo{
+    color: #0D0E43;
+    margin: 3px 0;
+}
+
+.header ul{
+    display: flex; 
+    gap: 35PX;
+    margin: 10PX 0;
+}
+
+.list ul a{ 
+    color: #0D0E43;
+}
+
+#text-color{
+    color: #FB2E86;
+}
+
+.header input{
+    border: 2px;
+    width: 266px;
+    height: 40px;
+}
+
+.header button{
+    border: 1px;
+    width: 51px;
+    height: 40px;
+    background-color: #FB2E86;
+}
+
+.search-form form{
+    border: solid #E7E6EF;
+    display: flex;
+}
