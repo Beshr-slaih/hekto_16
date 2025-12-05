@@ -12,6 +12,10 @@ ul{
     list-style-type: none;
 }
 
+body{
+    padding-top: 80px;
+}
+
 .container{
     width: 100%;
     padding: 0 50px;
@@ -19,13 +23,19 @@ ul{
     margin: 0 auto;
 }
 
-
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
 
 .header{
    position: fixed;
    width: 100%;
    top: 0;
    padding: 15px 0;
+    background-color: #FFFFFF;
 }
 
 .header .container{
@@ -101,3 +111,83 @@ ul{
 
 }
 
+.footer{
+    padding: 50px 0;
+    background-color: #EEEFFB;
+}
+
+.footer .row{
+    gap: 20px;
+    align-items: flex-start;
+
+}
+
+.footer .left-side{
+    width:calc( (100% - 20px) / 2 );
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer .left-side .logo{
+    color: #000000;
+}
+
+.footer form{
+    display: flex;
+    height: 43.32px;
+    width: 376.8px;
+
+}
+
+.footer .left-side ul{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    font-family: 'Lato', sans-serif;
+    color: #8A8FB9;
+}
+
+.footer .left-side button{
+    width: 134.93px;
+    height: 43.32px;
+    background-color: #FB2E86;
+    color: #EEEFFB;
+    border: none;
+}
+
+.footer .left-side input{
+    border: 2px;
+    width: 242.87px;
+    height: 43.32px;
+}
+
+.footer .right-side{
+    width:calc( (100% - 20px) / 2 );
+    display: flex;
+    gap: 20px;
+}
+
+.footer .right-side ul{
+    display: flex;
+    flex-direction: column;
+    gap: 23.32px;
+    color: #8A8FB9;
+    font-family: 'Lato', sans-serif;
+}
+
+.footer .right-side h3{
+    margin-bottom: 20px;
+    color: #0D0E43;
+    font-family: 'Josefin Sans', sans-serif; 
+}
+
+.footer .right-side .row{
+    width: 100%;
+    gap: 20px;
+}
+@media screen and (min-width:0) and (max-width:1024px) {
+    .footer .left-side, .footer .right-side{
+        width: 100%;
+    }
+}
