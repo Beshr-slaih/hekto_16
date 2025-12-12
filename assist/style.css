@@ -108,7 +108,46 @@ body{
     display: block;
 
 }
+}
 
+
+.background-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./img/Rectangle.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 462px;
+    width: 1920px;
+}
+
+.background-img .content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 174px 673px 103px;
+    gap: 28px;
+    width: 574px;
+    height: 185px;
+}
+
+.background-img h2{
+    font-family: 'Josefin Sans', sans-serif; 
+    color: #151875;
+    font-weight: bold;
+
+}
+
+.background-img input{
+    /* margin-top: 20px; */
+    width: 173px;
+    height: 49px;
+    background-color: #FB2E86;
+    color: #ffffff;
+    font-family: 'Josefin Sans', sans-serif; 
+    border: none;
 }
 
 .footer{
