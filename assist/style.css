@@ -110,14 +110,102 @@ body{
 }
 }
 
+.products{
+    margin-top: 129px;
+    margin-bottom: 128px;
+    height: 508px;
+}
+
+.products .row{
+    gap: 30px;
+    justify-content: center;
+    width: calc((1168 - 30) /3);
+    height: 451px;
+}
+
+.products h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Josefin Sans', sans-serif; 
+    color: #1A0B5B;
+    font-weight: bold;
+    font-size: 42px;
+}
+
+.product{
+    margin-top: 46px;
+    width: 270px;
+    height: 361px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.product-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 270px;
+    height: 236px;
+    background-color: #F6F5FF;
+}
+
+.product-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    margin-top: 14px;
+}
+
+.product-details h2{
+    font-family: 'Lato', sans-serif;
+    color: #FB2E86;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.product-color button{
+    border: none;
+    width: 14px;
+    height: 4px;
+    border-radius: 12px;
+}
+
+.product-color .pink{
+    background-color: #FB2E86;
+}
+
+.product-color .green{
+    background-color: #05E6B7;
+}
+
+.product-color .blue{
+    background-color: #00009D;
+}
+
+.product-color .yellow{
+    background-color: #FFEAC1;
+}
+
+.product-info span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lato', sans-serif;
+    color: #151875;
+    font-size: 14px;
+}
 
 .background-img{
-    display: flex;
+    display:flex;
     justify-content: center;
     align-items: center;
     background-image: url(./img/Rectangle.png);
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment:scroll;
+    background-position: center;
     height: 462px;
     width: 1920px;
 }
@@ -137,10 +225,10 @@ body{
     font-family: 'Josefin Sans', sans-serif; 
     color: #151875;
     font-weight: bold;
-
+    font-size: 36px;
 }
 
-.background-img input{
+.background-img button{
     /* margin-top: 20px; */
     width: 173px;
     height: 49px;
