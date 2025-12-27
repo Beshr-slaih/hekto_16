@@ -106,3 +106,61 @@ form{
 }
 /* End header */
 
+/* Start hero 1 section */
+
+.hero1 .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.hero1_right img{
+    height: 100vh;
+}
+
+.hero1 .best_Furniture{
+    color: #FB2E86;
+    font-family: Lato;
+    font-weight: 700;
+    font-size: 16px;
+    padding-bottom: 3px;
+}
+
+.hero1_left h2{
+    font-family: Josefin Sans;
+    font-weight: 700;
+    font-size: 53px;
+    padding-bottom: 3px;
+}
+
+.hero1_left .details{
+    color: #8A8FB9;
+    font-family: Lato;
+    font-weight: 700;
+    font-size: 16px;
+    padding-bottom: 7px;
+}
+
+.hero1_left button{
+    width: 159px;
+    height: 50px;
+    background-color: #FB2E86;
+    color: #FFFFFF;
+    font-family: Josefin Sans;
+    font-size: 17px;
+    font-weight: 600;
+    border: 0;
+}
+
+@media screen and (max-width:1150px) {
+    .hero1 .container{
+        flex-direction: column;
+    }
+
+    .hero1_right img{
+        width: 100%;
+    }
+}
+
+/* End hero 1 section */
