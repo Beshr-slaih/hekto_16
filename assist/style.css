@@ -767,3 +767,53 @@ transition-delay: 0.1s;
 }
 
 /* End Top categories section*/
+
+/* Start hero 2 section */
+
+.hero2{
+    background-image: url(./image/Rectangle102.png);
+    height: 512px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero2 .item{
+    width: 574px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+}
+
+.hero2 p{
+    font-family: Josefin Sans;
+    font-weight: 700;
+    font-size: 35px;
+    color: #151875;
+    padding-bottom: 28px;
+}
+
+.hero2 button{
+    color: #FFFFFF;
+    font-family: Josefin Sans;
+    font-weight: 400;
+    font-size: 17px;
+    background-color: #FB2E86;
+    width: 173px;
+    height: 49px;
+    border: none;
+}
+
+@media screen and (max-width:1150px) {
+    .hero2 .container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+/* End hero 2 section */
