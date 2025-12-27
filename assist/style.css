@@ -108,6 +108,11 @@ form{
 
 /* Start hero 1 section */
 
+.hero1{
+    padding: 50px 0px;
+    background-color: #F2F0FF;
+}
+
 .hero1 .container{
     display: flex;
     align-items: center;
@@ -164,3 +169,147 @@ form{
 }
 
 /* End hero 1 section */
+
+/* Start products section */
+
+.products{
+    padding: 50px 0;
+}
+
+.products .items{
+    width: 275px;
+    height: 361px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.products h2{
+    text-align: center;
+    font-family: Josefin Sans;
+    font-weight: 700;
+    font-size: 42px;
+    margin-bottom: 45px;
+    color: #1A0B5B;
+}
+
+.products .row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.products .image{
+    width: 270px;
+    height: 236px;
+    background-color: #F6F7FB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.products .info{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+    padding-bottom: 17px;
+}
+
+.products h3{
+    font-family: Lato;
+    font-weight: 700;
+    font-size: 18px;
+    color: #FB2E86;
+}
+
+.products .butt{
+    width: 14px;
+    height: 5px;
+    border: none;
+    border-radius: 12px;
+}
+
+.products .green{
+    background-color: #05E6B7;
+}
+
+.products .pink{
+    background-color: #F701A8;
+}
+
+.products .blue{
+    background-color: #00009D;
+}
+
+.products .code{
+    font-family: Josefin Sans;
+    font-weight: 400;
+    font-size: 14px;
+    color: #151875;
+}
+
+.products .salary{
+    color: #151875;
+    font-family: Lato;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.products .icons{
+    display: flex;
+    gap: 16px;
+    position: absolute;
+    top: 11px;
+    left: 11px;
+}
+.products .icon button{
+    background-color: #0000000D;
+    border-radius: 50px;
+    border: none;
+    color: #1DB4E7;
+    opacity: 0;
+}
+
+.products .items:hover{
+    border: 2px solid #9c67f1;
+}
+.products .items:hover button{
+    opacity: 1;
+}
+.products .items:hover .info{
+    background-color: #2F1AC4;
+    transition-duration: 2s;
+}
+.products .items:hover .info .code{
+    color: #FFFFFF;
+}
+.products .items:hover .info .salary{
+    color: #FFFFFF;
+}
+
+@media screen and (max-width:1150px) {
+    .products .row{
+        flex-wrap: wrap;
+    }
+
+    .products .items:hover{
+        border: 2px solid #9c67f1;
+    }
+    .products .items:hover button{
+        opacity: 1;
+    }
+    .products .items:hover .info{
+        background-color: #2F1AC4;
+        transition-duration: 2s;
+    }
+    .products .items:hover .info .code{
+        color: #FFFFFF;
+    }
+    .products .items:hover .info .salary{
+        color: #FFFFFF;
+    }
+}
+
+/* End products section */
