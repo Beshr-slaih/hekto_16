@@ -504,3 +504,74 @@ position: absolute;
 }
 
 /* End Leatest Products section*/
+
+/* start shopex offer section  */
+
+.shopex_offer{
+    padding: 50px 0;
+}
+
+.shopex_offer h2{
+    text-align: center;
+    padding-bottom: 50px;
+    font-family: Josefin Sans;
+    font-weight: 700;
+    font-size: 42px;
+    color: #151875;
+}
+.shopex_offer .items{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 28px;
+    width: calc((100%-84px)/4);
+}
+
+.shopex_offer img{
+    width: 65px;
+    height: 65px;
+    margin-bottom: 27px;
+}
+
+.shopex_offer span{
+    color: #151875;
+    margin-bottom: 30px;
+    font-family: Josefin Sans;
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.shopex_offer p{
+    font-family: Lato;
+    font-weight: 700;
+    font-size: 16px;
+    color: #1A0B5B4D;
+    margin-top: 22px;
+    text-align: center;
+}
+
+.shopex_offer .item{
+    width: 270px;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+ .shopex_offer .item:hover{
+    border: 2px solid #9c67f1;
+}
+
+@media screen and (max-width: 1211px) {
+    .shopex_offer .items{
+        flex-direction: column;
+    }
+    
+    .shopex_offer .item:hover{
+        border: 2px solid #9c67f1;
+    }
+}
+
+/* end shopex offer section  */ 
