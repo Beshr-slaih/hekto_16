@@ -338,16 +338,11 @@ form{
     padding-bottom: 50px;
 }
 
-.leatest_products .head span{
+.leatest_products .head a{
     font-family: Lato;
     font-weight: 400;
     font-size: 18px;
     color: #151875;
-}
-
-.leatest_products .head .first_span{
-    color: #FB4997;
-    text-decoration-line: underline;
 }
 
 .leatest_products .items{
@@ -410,7 +405,7 @@ position: absolute;
     justify-content: space-between;
 }
 
-.leatest_products .left_info span{
+.leatest_products .left_info a{
     font-family: Josefin Sans;
     font-weight: 400;
     font-size: 16px;
@@ -458,6 +453,14 @@ position: absolute;
        border: 2px solid #9c67f1;
 }
 
+.leatest_products .head a:hover{
+    color: #FB4997;
+    text-decoration-line: underline;
+    font-size: 20px;
+    transition-duration: 0.5s;
+    transition-delay: 0.2s ;
+}
+
 @media screen and (max-width:768px) {
     .leatest_products .head{
         flex-direction: column;
@@ -467,40 +470,56 @@ position: absolute;
     }
 
     .leatest_products .item:hover .icons{
-    opacity: 1;
-    transition-duration: 0.7s;
-    transition-delay: 0.4s;
-}
+        opacity: 1;
+        transition-duration: 0.7s;
+        transition-delay: 0.4s;
+    }
 
-.leatest_products .item:hover{
+    .leatest_products .item:hover{
        border: 2px solid #9c67f1;
-}
+    }
+
+    .leatest_products .head a:hover{
+        color: #FB4997;
+        text-decoration-line: underline;
+        font-size: 20px;
+        transition-duration: 0.5s;
+        transition-delay: 0.2s ;
+    }
 
 }
 
 @media screen and (max-width: 360px) {
-.leatest_products img{
-   width: 100%;
-}
+    .leatest_products img{
+        width: 100%;
+    }
 
-.leatest_products .info{
-    flex-direction: column;
-    gap: 10px;
-}
+    .leatest_products .info{
+        flex-direction: column;
+        gap: 10px;
+    }
 
-.leatest_products .left_side{
-    margin: auto;
-}
+    .leatest_products .left_side{
+        margin: auto;
+    }
 
-.leatest_products .item:hover .icons{
-    opacity: 1;
-    transition-duration: 0.7s;
-    transition-delay: 0.4s;
-}
+    .leatest_products .item:hover .icons{
+        opacity: 1;
+        transition-duration: 0.7s;
+        transition-delay: 0.4s;
+    }
 
-.leatest_products .item:hover{
+    .leatest_products .item:hover{
        border: 2px solid #9c67f1;
-}
+    }
+
+    .leatest_products .head a:hover{
+        color: #FB4997;
+        text-decoration-line: underline;
+        font-size: 20px;
+        transition-duration: 0.5s;
+        transition-delay: 0.2s ;
+    }
 }
 
 /* End Leatest Products section*/
